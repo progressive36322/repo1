@@ -11,7 +11,7 @@ public abstract class Figura {
     private int S;
     private int P;
     Figura vFig;
-    public abstract int poiskS();
+    public abstract Double poiskS();
     public abstract int poiskP();
 
     public String getName() {

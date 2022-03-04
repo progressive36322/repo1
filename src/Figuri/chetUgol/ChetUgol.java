@@ -9,14 +9,14 @@ public class ChetUgol extends Figura {
     int b;
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("введите длину: ");
-        a= sc.nextInt();
-        System.out.println("введите ширину");
+        System.out.print("Введите длину: ");
+        a = sc.nextInt();
+        System.out.print("Введите ширину: ");
         b = sc.nextInt();
     }
     @Override
-    public int poiskS() {
-        return a * b;
+    public Double poiskS() {
+        return Double.valueOf(a * b);
     }
 
     @Override

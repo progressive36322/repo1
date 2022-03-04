@@ -6,8 +6,8 @@ public class ShestiUgol extends Figura {
     }
 
     @Override
-    public int poiskS() {
-        return 0;
+    public Double poiskS() {
+        return 0.0;
     }
 
     @Override
