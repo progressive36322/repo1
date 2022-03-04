@@ -56,8 +56,9 @@ public class Main {
             vFig = new ShestiUgol(fig);
         }
         else System.out.println("Такой фигуры нет!!!!!!!!!!");
-
-        System.out.println("Площадь " + vFig.getName() + " " + vFig.poiskS());
-        System.out.println("Периметр " + vFig.getName() + " " + vFig.poiskP());
+        if (vFig != null) {
+            System.out.println("Площадь " + vFig.getName() + " " + vFig.poiskS());
+            System.out.println("Периметр " + vFig.getName() + " " + vFig.poiskP());
+        }
     }
 }
